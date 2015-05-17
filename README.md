@@ -19,14 +19,7 @@ Installation
 Usage
 -----
 
-    docker run -d -p 80:80 nott/nginx
-
-Attach volumes
---------------
-
-    docker run -d -p 80:80 -v {conf-d-dir}:/etc/nginx/conf.d -v {default-d-dir}:/etc/nginx/default.d -v {log-dir}:/var/log/nginx -v {html-dir}:/usr/share/nginx/html nott/nginx
-
-After few seconds, open http://{host} to see the welcome page.
+TBD
 
   [Nginx]: http://nginx.org/
   [Docker]: https://www.docker.com/
